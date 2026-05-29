@@ -63,7 +63,7 @@ const Header = () => {
                         </div>
                     </div>
                     <div
-                        className={`md:hidden  bg-gray-100 p-4 rounded-2xl absolute w-[95%] left-0 right-0 mx-auto z-50 transform transition-all duration-300 ease-in-out overflow-hidden
+                        className={`md:hidden  bg-white p-4 rounded-xl absolute w-[95%] left-0 right-0 mx-auto z-50 transform transition-all duration-300 ease-in-out overflow-hidden
                             ${navopen
                                 ? "opacity-100 translate-y-0 max-h-96 mt-4 "
                                 : "opacity-0 -translate-y-5 max-h-0 pointer-events-none"
